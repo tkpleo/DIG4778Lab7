@@ -30,7 +30,7 @@ public class FunctionTimer : MonoBehaviour
         Stopwatch stopwatch = new Stopwatch();
 
         stopwatch.Start(); // Start timing
-        sortArray(); // Call the function you want to measure
+        sortArray(); // Call the plugin
         stopwatch.Stop();  // Stop timing
 
         // Get the elapsed time
