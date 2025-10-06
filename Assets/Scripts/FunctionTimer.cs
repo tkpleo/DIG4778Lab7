@@ -8,7 +8,7 @@ public class FunctionTimer : MonoBehaviour
 {
 
     [DllImport("Lab7DLL", EntryPoint = "TestSort")]
-    //[DllImport("C#DLLTest", EntryPoint = "TestSort")]
+
 
 
     public static extern void TestSort(int[] a, int length);
